@@ -1,0 +1,38 @@
+.membership{
+  //max-width: 1150px;
+}
+.tags,.inputs{
+  width: 100%;
+  overflow: hidden;
+}
+
+.el-form-item{
+  float: left;
+}
+.search{
+  float: right;
+  margin-right: 28px;
+}
+.tables{
+  margin-top: 50px;
+}
+.pagination{
+  text-align: center;
+  margin-top: 20px;
+}
+.inputs{
+  margin-top: 10px;
+}
+.input_item{
+  float: left;
+  display: flex;
+  align-items: center;
+  margin: 10px;
+  h1{
+    float: left;
+    font-size: 14px;
+    color: #333;
+    margin-right: 10px;
+    font-weight: bold;
+  }
+}

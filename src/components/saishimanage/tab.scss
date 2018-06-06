@@ -1,0 +1,149 @@
+.tab1{
+  width: 95%;
+  margin: auto;
+  margin-top: 30px;
+  padding-bottom: 200px;
+}
+.block{
+  //border-bottom: 1px solid #a7b1c2;
+  box-sizing: border-box;
+  padding-bottom: 10px;
+  overflow: hidden;
+}
+.tab1 h2{
+  color: #333;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 8px 20px;
+}
+.tab1 .el-upload{
+  width: 100%;
+}
+.tab1 .el-upload-list li{
+  width: 100%;
+}
+.tab1 .tab_li_item{
+  width: 45%;
+  display: flex;
+  align-items: center;
+  float: left;
+}
+.tab1 .tab_li_item_award{
+  width: 70%;
+  margin-left: 0 !important;
+  margin-top: 20px;
+  .tab_li_span{
+    margin-right: 10px;
+  }
+
+}
+.tab1 .tab_li_item:nth-child(2n){
+  margin-left: 95px;
+}
+.tab_block li{
+  width: 100%;
+  overflow: hidden;
+  margin-bottom: 30px;
+  margin-top: 10px;
+}
+.tab1 h3{
+  width: 150px;
+  float: left;
+  display: inline-block;
+  height: 100%;
+  font-size: 12px;
+  color: #333;
+  font-weight: bold;
+  line-height: 100%;
+  padding-left: 22px;
+  box-sizing: border-box;
+}
+.tab_block li>.tab_li_item .tab_li_span{
+  float: left;
+  width: 300px;
+}
+.tab_li_span .el-date-editor{
+  width: 200px;
+}
+.tab1_match_intro{
+  width: 44%;
+  float: left;
+}
+.tab1_match_intro:nth-child(2n + 1){
+  margin-left: 100px;
+}
+.tab_chose_box{
+  width: 96%;
+  height: 240px;
+  overflow-y: hidden;
+  overflow-x: scroll;
+  display: flex;
+  margin: auto;
+}
+.tab_chose_game{
+  float: left;
+  width: 160px;
+  height: 180px;
+  margin-right: 15px;
+  img{
+    width: 160px;
+    height: 160px;
+    border: 1px solid brown;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    display: block;
+  }
+  h3{
+    text-align: center;
+    margin-top: 15px;
+  }
+}
+.tab2{
+  .tab_li_span_game{
+    margin-left: -23px;
+    width: 193px;
+    height: 40px;
+    line-height: 40px;
+  }
+}
+.tab2 .tab_li_span label{
+  margin-left: 5px;
+  margin-top: 14px;
+}
+.chose_game{
+  img{
+    border: 4px solid #13ce66;
+    box-sizing: border-box;
+  }
+
+}
+.sider_icons{
+  position: absolute;
+  z-index: 10;
+  right: 20px;
+  top: 100px;
+  div{
+    width: 30px;
+    height: 30px;
+    display: block;
+    margin-bottom: 10px;
+    box-shadow: -3px 3px 5px #000;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  .full-screen{
+    background: url('./img/full_static.png') no-repeat 50%;
+  }
+  .up-to-top{
+    background: url('./img/top_static.png') no-repeat 50%;
+  }
+}
+.block_editor{
+  margin-top: 20px;
+  .ql-container{
+    height: 78%;
+  }
+}
+
+

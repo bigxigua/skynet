@@ -1,0 +1,33 @@
+.operate-container {
+  width: 100%;
+  height: 100%;
+  background: #fff;
+}
+
+.centent-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+.content {
+  width: 100%;
+  padding: 10px 10px;
+  padding-bottom: 120px;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+.fade-transverse-enter-active, .fade-transverse-leave-active {
+  transition: all .5s
+}
+
+.fade-transverse-enter {
+  opacity: 0;
+  transform: translateX(-30px)
+}
+
+.fade-transverse-leave-to {
+  opacity: 0;
+  transform: translateX(30px)
+}

@@ -1,0 +1,23 @@
+# ignore .git & .cache folders
+.git
+.cache
+.babelrc
+.editorconfig
+.gitignore
+.gitlab-ci.yml
+package.json
+package-lock.json
+push.sh
+
+
+# ignore all markdown files (md) beside all README*.md other than README-secret.md
+*.md
+!README*.md
+README-secret.md
+
+build?
+config?
+gitlab-ci?
+node_modules?
+src?
+

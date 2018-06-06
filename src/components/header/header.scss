@@ -1,0 +1,42 @@
+.header-container{
+  width: 100%;
+}
+.nav-bar{
+  width: 100%;
+  height: 60px;
+  background: #f3f3f4;
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  position: relative;
+  border-bottom: 1px solid #e7eaec;
+}
+.logo{
+  font-family: 'Arial Negreta', 'Arial Normal', 'Arial';
+  font-weight: 700;
+  font-style: normal;
+  font-size: 28px;
+  color: #3499DA;
+  height: 100%;
+  line-height: 60px;
+  margin-left: 20px;
+  position: relative;
+  &:after{
+    content: '|';
+    width: 6px;
+    height: 33px;
+    margin-left: 10px;
+    position: relative;
+    top: -2px;
+    opacity: 0.6;
+  }
+}
+.name{
+  font-size: 16px;
+  color: #36AB60;
+  text-align: center;
+  font-weight: bold;
+  margin-left: 20px;
+  margin-top: 18px;
+}
+

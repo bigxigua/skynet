@@ -1,0 +1,20 @@
+stages:
+  - build
+#  - deploy
+
+build:
+  variables:
+    CJ_RUNNER_HOME: "/home/node"
+  stage: build
+  script:
+    - echo "正在开始build"
+#    - echo $CI_COMMIT_REF_NAME
+#    - echo hostname -I
+    - ls
+    - cd ../
+    - ls
+    - mkdir fufufck
+#    - bash push.sh
+    - echo "build成功"
+  only:
+    - branches
